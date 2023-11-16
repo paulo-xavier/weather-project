@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-page{
+    background-color: red;
+    width: 800px;
+    height: 500px;
+}
+
+header{
+    background-color: blue;
+    height: 80px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 200px;
+}
+
+input:first-child, input:nth-child(2) {
+    height: 30px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    margin-left: 5px;
+}
+
+input:first-child{
+    text-indent: 10px;
+}
+
+input:nth-child(2) {
+    width: 50px;
+    background: url('../images/search.png') no-repeat center;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+main {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    height: 300px
+
+}
+
+.container-temperature {
+    background-color: aqua;
+    display: flex;
+    column-gap: 400px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.city-info{
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
