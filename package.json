@@ -1,0 +1,23 @@
+{
+  "name": "projeto-tempo",
+  "version": "1.0.0",
+  "description": "API que envia dados em JSON a partir de um nome de cidade",
+  "main": "API.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandreBitelo/Projeto-Tempo.git"
+  },
+  "author": "Alexandre Bitelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandreBitelo/Projeto-Tempo/issues"
+  },
+  "homepage": "https://github.com/AlexandreBitelo/Projeto-Tempo#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  }
+}
