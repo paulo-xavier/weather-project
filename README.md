@@ -19,6 +19,8 @@
 O nome da cidade deve estar em maiúsculo, por exemplo:
 
 ### "nome do Servidor"/cidade/Jacarezinho/json
+<br>
+
   Cada nome de cidade retorna um json com os dados do clima da cidade, no caso, quando solicitado os dados de Jacarezinho irá retornar um json com os seguintes dados
 ```json
   {
@@ -33,12 +35,18 @@ O nome da cidade deve estar em maiúsculo, por exemplo:
 
 ```
 
-Dessa maneira, para pegar dados de outra cidade para colocar em seu projeto basta mudar o nome na URL
+> Dessa maneira, para pegar dados de outra cidade para colocar em seu projeto basta mudar o nome na URL
 
-* As cidades  disponíveis para solicitar dados json estão no arquivo 
+* <a href='https://github.com/AlexandreBitelo/Projeto-Tempo/blob/main/dadosDoBanco.js'><button>Cidades Disponíveis</button></a>
 
+<br>
+<br>
 
+### Como foi feito o código?
+Ele consiste em uma API símples, que conecta com um banco de dados local e envia estes dados para o browser por uma solicitação pelo protocolo HTTP.
+O banco de dados foi feito dentro do código JavaScript. Portanto, para ver o código você deve entrar em ![index.js](https://github.com/AlexandreBitelo/Projeto-Tempo/blob/main/index.js) e ver os códigos específicos para banco de dados, o banco de dados usado foi o SQLite.
 
+* Modelagem do Banco
 ```mermaid
 erDiagram
     registros 
@@ -55,8 +63,22 @@ erDiagram
     }
 ```
 
-<style>
-  .atencao {
-    color: red;
-  }
-</style>
+<br>
+<br>
+
+Esta API foi criada como um projeto final do curso de Desenvolvimento Back-End que fiz no Senac.
+
+
+<br>
+<br>
+
+Qualquer Dúvida ou sugestões pode me contatar pelas redes que estão no meu perfil [Alexandre Bitelo](https://github.com/AlexandreBitelo)
+
+<br>
+<br>
+
+## Obrigado por acessar meu repositório! Rumo ao desenvolvimento 👨‍💻
+
+
+
+
