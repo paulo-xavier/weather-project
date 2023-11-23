@@ -1,0 +1,46 @@
+@media (max-width: 772px) {
+    .container-page {
+        width: 500px;
+    }
+
+    .container-temperature {
+        /* background-color: red; */
+        column-gap: 100px;
+        margin-top: -30px;
+
+    }
+
+    .image-temperature{
+        margin-top: 40px;
+    }
+
+  
+}
+
+@media (max-width: 576px){
+    .container-page {
+        width: 350px;
+    }
+
+    .container-temperature {
+        column-gap: 50px;
+    }
+}
+
+@media (max-width: 370px){
+    .container-page {
+        width: 300px; 
+    }
+
+    input:first-child {
+        width: 170px;
+    }
+
+    .container-temperature {
+        column-gap: 40px;
+    }
+    h1 {
+        font-size: 40px;
+        margin-left: 15px;
+    }
+}
