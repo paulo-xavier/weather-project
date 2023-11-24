@@ -131,11 +131,10 @@ srv.get ("/cidade/:nome/json", (req, res) => {
 });
 
 //Habilita comunicação entre browser e servidor
-srv.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', '*');
-    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
-    next();
-});
+//Habilita comunicação entre browser e servidor
+let app = express()
+app.use(cors())
+
 
 
 
