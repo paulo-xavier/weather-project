@@ -45,6 +45,8 @@ O nome da cidade deve estar em maiúsculo, por exemplo:
 Ele consiste em uma API símples, que conecta com um banco de dados local e envia dados para o browser por uma solicitação pelo protocolo HTTP.
 O banco de dados foi feito dentro do código JavaScript. Portanto, para ver o código você deve entrar em [index.js](https://github.com/AlexandreBitelo/Projeto-Tempo/blob/main/index.js) e ver os códigos específicos para banco de dados, o banco de dados usado foi o SQLite.
 
+<br>
+
 * Modelagem do Banco
 ```mermaid
 erDiagram
