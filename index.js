@@ -81,6 +81,8 @@ srv.get("/", (req, res) => {
             <h3>
                 Obrigado por usar esta API. Mais dados sobre ela, dúvida ou sugestões:  
                 <a href='https://github.com/AlexandreBitelo'><button>GitHub</button></a>
+                <br>
+                Retornar ao repositório da API: <a href='https://github.com/AlexandreBitelo/Projeto-Tempo'><button>Projeto-Tempo</button></a>
             </h3>
 
 
