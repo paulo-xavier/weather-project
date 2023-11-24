@@ -20,7 +20,7 @@ O nome da cidade deve estar em maiúsculo, por exemplo:
 ### "nome do Servidor"/cidade/Jacarezinho/json
 <br>
 
-  Cada nome de cidade retorna um json com os dados do clima da cidade, no caso, quando solicitado os dados de Jacarezinho irá retornar um json com os seguintes dados
+  Cada nome de cidade retorna um json com os dados de clima da cidade, no caso, quando solicitado os dados de Jacarezinho irá retornar um json com os seguintes dados
 ```json
   {
     "cidade": "Jacarezinho",
