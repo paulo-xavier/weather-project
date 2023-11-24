@@ -25,6 +25,10 @@
     .container-temperature {
         column-gap: 50px;
     }
+
+    footer{
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 370px){

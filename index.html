@@ -11,32 +11,33 @@
 </head>
 
 <body>
-    <section class="container-page">
+    <section  id="container-page" class="container-page">
         <header>
             <forms action="http://localhost:3030/registrar" method="post">
-                <input  type="text" id="city" placeholder="Enter a city to verify" size="30" maxlength="15">
+                <input  type="text" id="city" placeholder="Informe uma cidade" size="30" maxlength="15">
                 <input type="submit" id="button-submit" value=" ">
             </forms>
         </header>
         <main>
             <div class="container-temperature">
 
-                <h1 id="temperature"> 21ºC </h1>
+                <h1 id="temperature">  </h1>
+                
                 <div class="city-info"> 
-                    <h2 id="city"> Paris </h2>
-                    <h3 id="localtime"> 2023-11-16 16:10</h3>
+                    <h2 id="city-location"> Informe uma cidade e </h2>
+                    <h3 id="localtime"> CLIQUE NA LUPA</h3>
                 </div>
             
             </div>
 
             <div class="container-image-temperature">
-                <img class="image-temperature" src="./assets/images/sunny.png"> 
+                <img id="image-temperature" class="image-temperature" src="./assets/images/sunny.png"> 
             </div>
         </main>
 
         <footer>
-            <p> Other info</p>
-            <p> Other info </p>
+            <p id="weather"> Clima: </p>
+            <p id="wind-speed"> Velocidade do vento: </p>
         </footer>
 
     </section>
