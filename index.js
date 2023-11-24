@@ -1,6 +1,7 @@
 //Chamada dos Módulos
 const express = require('express');
 const sqlite3 = require('sqlite3');
+const cors = require ('cors');
 
 //Criação do servidor
 const srv = express();
@@ -130,7 +131,6 @@ srv.get ("/cidade/:nome/json", (req, res) => {
 
 });
 
-//Habilita comunicação entre browser e servidor
 //Habilita comunicação entre browser e servidor
 let app = express()
 app.use(cors())
