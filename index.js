@@ -79,7 +79,7 @@ srv.get("/", (req, res) => {
             <h3> O nome da cidade deve conter acentos e letras maiúsculas</h3>
             <br>
             <h3>
-                Obrigado por usar esta API. Mais dados sobre ela, dúvida ou sugestões:
+                Obrigado por usar esta API. Mais dados sobre ela, dúvida ou sugestões:  
                 <a href='https://github.com/AlexandreBitelo'><button>GitHub</button></a>
             </h3>
 
