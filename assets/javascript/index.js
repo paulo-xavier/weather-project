@@ -1,23 +1,13 @@
 
-
 const buttonSubmit = document.getElementById('button-submit');
 
-// const imageTemperature = document.getElementsByClassName("image-temperature");
-
-
-
 buttonSubmit.addEventListener('click', () => {
-    console.log("clickou");
 
     const cityInput = document.getElementById('city').value;
-    console.log(cityInput);
-
-
 
     getCityInfo(cityInput);
 
 });
-
 
 
 function getCityInfo(cityInput) {
@@ -29,7 +19,6 @@ function getCityInfo(cityInput) {
         .then((data) => {
 
             printInScreen(data)
-
 
         })
 
@@ -51,8 +40,6 @@ function printInScreen(data) {
     document.getElementById("wind-speed").textContent = `Velocidade do vento: ${windSpeed}`;
 
     changeImageAndBackground(weather);
-
-
 }
 
 
@@ -63,8 +50,6 @@ function changeImageAndBackground(weather) {
     if (weather == "chuvoso" || weather == "chuva fraca" || weather == "chuva forte" || weather == "chuva leve" || weather == "chuva moderada") {
         image.setAttribute("src", "./assets/images/rainy.png");
 
-        // containerPage.style.background = 'linear-gradient(180deg, #020C14 0%, rgba(59, 142, 213, 0.89) 99.99%, rgba(70, 170, 255, 0.00) 100%);'
-
         containerPage.style.background = 'linear-gradient(180deg, #020C14 0%, rgba(59, 142, 213, 0.89) 99.99%, rgba(70, 170, 255, 0.00) 100%)';
 
 
@@ -72,8 +57,6 @@ function changeImageAndBackground(weather) {
     } else if (weather == "ensolarado" || weather == "céu limpo") {
         image.setAttribute("src", "./assets/images/sunny.png");
         let containerPage = document.getElementById("container-page");
-
-        // document.getElementById("container-page").style.background = 'linear-gradient(180deg, #020C14 0%, rgba(59, 142, 213, 0.89) 99.99%, rgba(70, 170, 255, 0.00) 100%)';
 
         containerPage.style.background = 'linear-gradient(180deg, #46AAFF 0%, rgba(59, 142, 213, 0.89) 99.99%, rgba(70, 170, 255, 0.00) 100%);'
 
@@ -89,9 +72,6 @@ function changeImageAndBackground(weather) {
 
         containerPage.style.background = 'linear-gradient(180deg, #175081 0%, rgba(0, 96, 177, 0.89) 99.99%, rgba(70, 170, 255, 0.00) 100%)'
 
-
     }
-
-
 
 }
