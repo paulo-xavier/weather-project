@@ -91,10 +91,11 @@ srv.get("/", (req, res) => {
         <style>
             body {
                 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                font-size: 12px;
+                color: #dfdfdf;
+                font-size: 14px;
                 margin: 0;
                 padding: 0;
-                background-color: #a7a0a0;
+                background-color: #1C1C1C;
             }
 
             .atencao {
