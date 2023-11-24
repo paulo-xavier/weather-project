@@ -71,7 +71,7 @@ Esta API foi criada como um projeto final do curso de Desenvolvimento Back-End q
 <br>
 <br>
 
-Qualquer Dúvida ou sugestões pode me contatar pelas redes que estão no meu perfil [Alexandre Bitelo](https://github.com/AlexandreBitelo)
+Qualquer Dúvida ou sugestões pode me contactar pelas redes que estão no meu perfil [Alexandre Bitelo](https://github.com/AlexandreBitelo)
 
 <br>
 <br>
