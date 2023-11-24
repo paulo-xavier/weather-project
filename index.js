@@ -70,7 +70,7 @@ srv.get("/", (req, res) => {
                 Para Fazer uma solicitação para API digite os seguintes parâmetros na URL:
             <h3>
 
-            <h2>"Nome do Servidor"/cidade/"Nome da Cidade"/json </h2>
+            <h2>https://projeto-tempo.onrender.com/cidade/"Nome da Cidade"/json </h2>
             <h4>Os nomes que estão entre aspas você deve inserir</h4>
             <br>
             <div class="atencao">
