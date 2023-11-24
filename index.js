@@ -6,6 +6,9 @@ const cors = require ('cors');
 //Criação do servidor
 const srv = express();
 
+//Habilita comunicação entre browser e servidor
+srv.use(cors());
+
 //Definição da Porta do Servidor
 srv.listen (3030);
 
