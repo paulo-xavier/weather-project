@@ -132,8 +132,13 @@ srv.get ("/cidade/:nome/json", (req, res) => {
 });
 
 //Habilita comunicação entre browser e servidor
-let app = express()
-app.use(cors())
+srv.get ("/somethingelse"), (req, res) =>{
+  res.header ('Access-Control-Allow-Origin', '*')
+  res.header ('Access-Control-Allow-Credentials', true)
+  res.header ('Access-Control-Allow-Methods', 'POST, GET, PUT, DELETE, OPTIONS')
+  res.header ('Access-Control-Allow-Headers', 'Content-Type')
+};
+ 
 
 
 
