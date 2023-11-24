@@ -7,7 +7,6 @@
   Ela Funciona a partir de um URL, como outras APIs. Neste caso, para conseguir pegar dados sobre uma cidade, você deve seguir a seguinte sintaxe:
 
 <br>
-<br>
 
   
 ## "nome do Servidor"/cidade/"Nome da Cidade"/json
