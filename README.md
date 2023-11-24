@@ -9,7 +9,7 @@
 <br>
 
   
-## "nome do Servidor"/cidade/"Nome da Cidade"/json
+## https://projeto-tempo.onrender.com /cidade/"Nome da Cidade"/json
 <br>
 
 
@@ -19,7 +19,7 @@ O nome da cidade deve estar em maiúsculo, por exemplo:
 
 
 
-### "nome do Servidor"/cidade/Jacarezinho/json
+### https://projeto-tempo.onrender.com/cidade/Jacarezinho/json
 
 <br>
 
@@ -45,7 +45,7 @@ O nome da cidade deve estar em maiúsculo, por exemplo:
 <br>
 
 ### Como foi feito o código?
-Ele consiste em uma API símples, que conecta com um banco de dados local e envia dados para o browser por uma solicitação pelo protocolo HTTP.
+Ele consiste em uma API símples, que conecta com um banco de dados local e envia dados para o browser por uma solicitação pelo protocolo HTTPS.
 O banco de dados foi feito dentro do código JavaScript. Portanto, para ver o código você deve entrar em [index.js](https://github.com/AlexandreBitelo/Projeto-Tempo/blob/main/index.js) e ver os códigos específicos para banco de dados, o banco de dados usado foi o SQLite.
 
 <br>
