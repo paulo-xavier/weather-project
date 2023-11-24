@@ -130,5 +130,12 @@ srv.get ("/cidade/:nome/json", (req, res) => {
 
 });
 
+//Estabelecendo nova propriedade do servidor
+srv.httpNodeCors = {
+    origin: "*",
+    methods: "GET,PUT,POST,DELETE"
+}
+
+
 
 
