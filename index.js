@@ -130,11 +130,12 @@ srv.get ("/cidade/:nome/json", (req, res) => {
 
 });
 
-//Estabelecendo nova propriedade do servidor
-srv.httpNodeCors = {
-    origin: "*",
-    methods: "GET,PUT,POST,DELETE"
-}
+//Habilita comunicação entre browser e servidor
+srv.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+    next();
+});
 
 
 
