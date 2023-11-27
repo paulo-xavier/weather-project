@@ -56,7 +56,6 @@ function changeImageAndBackground(weather) {
 
     } else if (weather == "ensolarado" || weather == "céu limpo") {
         image.setAttribute("src", "./assets/images/sunny.png");
-        let containerPage = document.getElementById("container-page");
 
         containerPage.style.background = 'linear-gradient(180deg, #46AAFF 0%, rgba(59, 142, 213, 0.89) 99.99%, rgba(70, 170, 255, 0.00) 100%);'
 
